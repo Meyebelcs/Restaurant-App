@@ -1,0 +1,20 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-icon name="chevron-back-outline" id="flechita-atras" (click)="Home()"></ion-icon>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+
+  <div id="container">
+    <h2>Espera un momento...</h2>
+    <h4>Melany Jimenez está seleccionando los restaurantes</h4>
+    <div id="espera">
+      <ion-progress-bar type="indeterminate" color="primary"></ion-progress-bar>
+      <img src="../../assets/espera seleccion.gif" alt="" srcset="">
+    </div>
+    <ion-button color="primary" size="large" (click)="Seleccionar()">Aceptar</ion-button>
+  </div>
+
+</ion-content>

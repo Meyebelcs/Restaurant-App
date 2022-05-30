@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-icon name="chevron-back-outline" id="flechita-atras" (click)="Home()"></ion-icon>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="contenedor-tachita">
+    <ion-icon name="close-outline" color="light" id="tachita"></ion-icon>
+  </div>
+
+  <div id="container">
+    <h2>Haz rechazado la invitación de Melany Jiménez</h2>
+    <h4>Avisa a tu amigo porqué no podrás asistir</h4>
+
+    <div id="mensajes-rechazo">
+      <ion-button color="light" size="medium">Lo siento, no puedo en este momento</ion-button>
+      <ion-button color="light" size="medium">No tengo dinero</ion-button>
+      <ion-button color="light" size="medium">No tengo hambre</ion-button>
+      <ion-button color="light" size="medium">Se me dificulta a esa hora</ion-button>
+    </div>
+
+    <ion-button color="primary" size="large" (click)="Inicio()">Enviar</ion-button>
+  </div>
+</ion-content>
+
